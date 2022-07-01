@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    flex-direction: column;
+    width:100vw;
+
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 10px;
+}
+
+.img{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 50%;
+}
+
+.btn-primary{
+    background-color: rgb(50, 6, 122);
+    border: none;
+    margin: 10px;
+}
+
+input{
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+}
+
+
+
+@media (min-width:500px){
+
+    .container{
+        width: 400px;
+        height: 500px;
+    }
+}

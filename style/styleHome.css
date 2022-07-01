@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+    background-color: black;
+
+}
+
+
+a{
+   margin: ;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif ;
+}
+
+.container{
+    padding: 30%;
+    display: flex;
+    
+}
+.imgs{
+   display: flex;
+   flex-direction: column;
+}
+img{
+    width: 50px;
+    margin: 10px;
+}
+
+.despesas{
+    display: flex;
+    align-items: center;
+    
+}
+
+@media (min-width:600px){
+    .container{
+        padding: 10%;
+    }
+}
